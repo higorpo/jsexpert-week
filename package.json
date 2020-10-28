@@ -1,0 +1,15 @@
+{
+  "name": "semana-jsexpert",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ErickWendel/jsexpert01-skeleton-ew",
+  "author": "Higor <higorpiresoliveira@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "assets": "npx http-server --cors -p 8081 assets/",
+    "dev": "npx http-server --cors -p 8082 public/"
+  },
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}
